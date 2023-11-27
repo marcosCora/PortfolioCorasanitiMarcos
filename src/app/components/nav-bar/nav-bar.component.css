@@ -1,0 +1,43 @@
+
+
+.header{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 85px;
+    padding: 5px 3%;
+    margin: 0;
+}
+
+.header .nav-name{
+    color: #FAF6F0; 
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.header .nav-links{
+    list-style: none;
+    margin-left: auto; 
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+    
+}
+
+ .header .nav-links li:hover{
+    transform: scale(1.1);
+} 
+
+.header .nav-links a{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 25px;
+    color: #FAF6F0; 
+    text-decoration: none;    
+}
+
+.header .nav-links li a:hover{
+    color: #F4EAE0;
+}
