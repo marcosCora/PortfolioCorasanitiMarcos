@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&family=IBM+Plex+Sans:wght@100&display=swap');
 
 *{
+    position: relative;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,6 +10,6 @@
 }
 
 body{
-    background-color: #F4DFC8;
+    background-color: #ffffff;
 }
 

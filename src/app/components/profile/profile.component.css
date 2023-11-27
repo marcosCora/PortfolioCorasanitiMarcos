@@ -1,0 +1,20 @@
+section{
+    position: relative;
+    display: flex;
+    margin: 10%;
+}
+
+.div-img{
+    position: absolute;
+}
+
+.div-img img{
+    border-radius: 10%;
+}
+
+.div-inf{
+    background-color: aqua;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+}
