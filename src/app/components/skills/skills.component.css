@@ -1,0 +1,62 @@
+
+
+.section-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .title{
+    font-size: 3rem;
+    margin: 1%;
+    font-weight: bold;
+}
+
+.section-skills .container-skills{
+    /* margin-top: 2%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section-skills .container-skills .details-container{
+    padding: 1.5rem;
+    margin: 1rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    background-color: #FFE3BB;
+    height: 88%;
+    width: 90%;
+}
+
+.section-skills .container-skills .details-container .body-infSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.section-skills .container-skills .details-container .body-infSkills article{
+    flex: 0 0 48%; /* Ajusta según sea necesario para que haya dos por fila */
+    display: flex;
+    align-items: center;
+    font-size: 3vh;
+    margin: 5%;
+}
+
+.icon{
+    width: 3vh;
+    height: 3vh;
+    margin-right: 9%;
+}
+
+.title-skills{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
