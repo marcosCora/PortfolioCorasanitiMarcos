@@ -1,0 +1,55 @@
+
+ .section-profile{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     height: 86vh;
+ }
+ 
+ .section-profile .div-img{
+     margin: auto;
+     flex-grow: 0;
+     flex-shrink: 1;
+ 
+ }
+ .section-profile .div-inf{
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-size: 30px;
+     flex-grow: 0;
+     flex-shrink: 1;
+ 
+ }
+ 
+ .h3-name{
+     font-size: 50px;
+     font-weight: bolder;
+ }
+ 
+ 
+  .section-profile .div-img img{
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+ }
+ 
+ .button-cv {
+     padding: 10px 20px;
+     margin: 3%;
+     height: 55px;
+     width: 115px;
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+ 
+   .button-cv:hover {
+     background-color: #45a049;
+   }
+   .button-cv:active {
+     background-color: #3e8e41;
+   }
