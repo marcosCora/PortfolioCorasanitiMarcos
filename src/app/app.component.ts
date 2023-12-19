@@ -19,5 +19,23 @@ import { FooterComponent } from './components/footer/footer.component';
 })
 export class AppComponent {
 
+    ngAfterViewInit() {
+        this.scrollToSection('skills'); // o el ID que necesites
+      }
+
+    scrollToSection(sectionId: string) {
+        let element = document.getElementById(sectionId);
+        console.log(sectionId, 'hola');
+        console.log(element, 'hola');
+        
+        if (element) {
+            console.log('holalala');
+            
+            element.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
 
 }
