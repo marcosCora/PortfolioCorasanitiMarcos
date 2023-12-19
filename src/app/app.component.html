@@ -1,18 +1,12 @@
 
-<app-nav-bar (sectionClicked)="ngAfterViewInit()"></app-nav-bar>
+<app-nav-bar (sectionClicked)="scrollToSection($event)"></app-nav-bar>
 
 <main class="main">
 
-    <div >
         <app-profile></app-profile>
-    </div>
 
-    <div id="skills">
-        <app-skills></app-skills>
-    </div>
+        <app-skills id="skills"></app-skills>
 
-    <div>
-        <app-projects></app-projects>
-    </div>
+        <app-projects id="projects"></app-projects>
 
 </main>
