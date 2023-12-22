@@ -1,5 +1,5 @@
 .header{
-    background-color: #EBE3D5; 
+    background-color: #005B4C;  
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
@@ -10,8 +10,8 @@
 }
 
 .header .nav-name{
-    font-family:  'IBM Plex Sans Condensed', sans-serif;
-    color: #776B5D;
+    font-family: 'Oswald', sans-serif;
+    color: #F0F4CD;
     flex-grow: 1;
     align-items:flex-start;
     font-size: 35px;
@@ -30,8 +30,8 @@
 }
 
 .header .nav-links a{
-    font-family:  'IBM Plex Sans Condensed', sans-serif;
-    color: #776B5D; 
+    font-family: 'Oswald', sans-serif;
+    color: #F0F4CD; 
     font-size: 25px;
     text-decoration: none;
     transition: .5s;
@@ -42,51 +42,5 @@
 }
 
  .header .nav-links li a:hover {
-    color: black;; 
+    color: #AAAE8A; 
 } 
-
-/* 
-
-
-.header{
-    background-color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 85px;
-    padding: 5px 3%;
-    margin: 0;
-}
-
-.header .nav-name{
-    color: #FAF6F0; 
-    margin-right: auto;
-    font-size: 30px;
-}
-
-.header .nav-links{
-    list-style: none;
-    margin-left: auto; 
-}
-
-.header .nav-links li{
-    display: inline-block;
-    padding: 0 20px;    
-    
-}
-
- .header .nav-links li:hover{
-    transform: scale(1.1);
-} 
-
-.header .nav-links a{
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    font-size: 25px;
-    color: #FAF6F0; 
-    text-decoration: none;    
-}
-
-.header .nav-links li a:hover{
-    color: #F4EAE0;
-}
- */
