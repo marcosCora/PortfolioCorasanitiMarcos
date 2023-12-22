@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-abaut-me',
+  selector: 'app-contact',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './abaut-me.component.html',
-  styleUrl: './abaut-me.component.css'
+  templateUrl: './contact.component.html',
+  styleUrl: './contact.component.css'
 })
-export class AbautMeComponent {
+export class ContactComponent {
 
 }
