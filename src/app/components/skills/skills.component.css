@@ -6,16 +6,11 @@
     align-items: center;
 }
 
- .title{
-    font-size: 3rem;
-    margin: 1%;
-    font-weight: bold;
-}
 
 .section-skills .container-skills{
-    /* margin-top: 2%; */
     display: flex;
     justify-content: space-around;
+    width: 60%;
 }
 
 
@@ -27,8 +22,8 @@
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    text-align: center;
-    background-color: #FFE3BB;
+    text-align: center; 
+    background-color: #B8B9AE;
     height: 88%;
     width: 90%;
 }
@@ -44,8 +39,10 @@
     flex: 0 0 48%; /* Ajusta según sea necesario para que haya dos por fila */
     display: flex;
     align-items: center;
-    font-size: 3vh;
+    font-size: 1.5rem; 
     margin: 5%;
+    color: #ffffff;
+
 }
 
 .icon{
@@ -57,6 +54,20 @@
 .title-skills{
     color: rgb(85, 85, 85);
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+.section-skills .container-skills {
+    width: 90%; /* Ajusta el ancho del contenedor de habilidades */
+}
+
+.section-skills .container-skills .details-container {
+    width: 100%; /* O ajusta según sea necesario */
+}
+
+.section-skills .container-skills .details-container .body-infSkills article {
+    flex: 0 0 100%; /* Hace que los artículos ocupen el 100% del ancho en pantallas más pequeñas */
+}
 }

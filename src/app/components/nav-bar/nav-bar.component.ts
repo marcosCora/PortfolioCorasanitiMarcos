@@ -20,22 +20,6 @@ export class NavBarComponent {
   }
 }
 
-/*   scrollSkills(){
-    console.log('inc de la funcion');
-    window.location.hash = 'skills'
-   /*  let sectionSkills = document.getElementById('skills');
-    console.log('holi', sectionSkills);
-    
-    if(sectionSkills){
-      sectionSkills.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start' 
-      }); 
-      
-      
-    }
-    console.log('fina de la funcion');
-  } */
 
 
 
