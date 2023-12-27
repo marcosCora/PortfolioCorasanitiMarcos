@@ -1,46 +1,49 @@
 
-.section-contact{
-    border: 7px #111 solid;
+
+.section-contact .body-infContact{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 1.30rem;
+
 }
 
-.section-contact .article-email{
+.section-contact .body-infContact .article-email{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
 }
 
-.section-contact .div-container{
-    border: 7px #111 solid;
+.section-contact .body-infContact .div-container{
     display: flex;
     flex-direction: row;
-    justify-content: center; 
-    width: 100%; /* Cambia el ancho según tus necesidades */
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.section-contact .div-container article{
-    display: flex;
-    flex-direction: row;
-    margin-left: 15%;
+    justify-content: center;
+    text-align: center;
+    gap: 10rem; 
+    width: 70%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
 
+.section-contact .body-infContact .div-container article a:hover {
+    transform: scale(1.1);
+}
 
-
-
-
-
-
-
-
+.section-contact .body-infContact .div-container article a:hover {
+    color: #AAAE8A; 
+}
 
 img{
     width: 100px;
     height: 100px;
+}
+
+.img-email{
+    margin-top: 15px;
+    width: 1.7rem;
+    height: 1.7rem;
 }
