@@ -4,9 +4,9 @@ import { RouterOutlet } from '@angular/router';
 import { NavBarComponent } from "./components/nav-bar/nav-bar.component";
 import { ProfileComponent } from './components/profile/profile.component';
 import { SkillsComponent } from './components/skills/skills.component';
-import { AbautMeComponent } from './components/about-me/abaut-me.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @Component({
@@ -15,7 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
     templateUrl: './app.component.html',
     encapsulation: ViewEncapsulation.None,
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, NavBarComponent, ProfileComponent, SkillsComponent, AbautMeComponent, ProjectsComponent, FooterComponent]
+    imports: [CommonModule, RouterOutlet, NavBarComponent, ProfileComponent, SkillsComponent, ProjectsComponent, FooterComponent, ContactComponent]
 })
 export class AppComponent {
 
