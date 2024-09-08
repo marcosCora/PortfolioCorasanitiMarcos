@@ -1,6 +1,6 @@
 
 .header{
-    background-color: #005B4C;  
+    background-color: #27323E;  
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
@@ -8,16 +8,19 @@
     align-items: center; 
     height: 14vh;
     margin: 0;
+    width: 100%;
+    position: fixed;
+    font-family: "Roboto", sans-serif;
 }
 
-.header .nav-name{
+/* .header .nav-name{
     font-family: 'Oswald', sans-serif;
     color: #F0F4CD;
     flex-grow: 1;
     align-items:flex-start;
     font-size: 35px;
     margin-left: 3%;
-}
+} */
 
 .header nav{
     flex-grow: 1;
@@ -26,13 +29,13 @@
 .header .nav-links{
     display: flex;
     list-style: none;
-    justify-content:space-evenly;
-    
+    justify-content: center;
+    gap: 7%;
 }
 
 .header .nav-links a{
-    font-family: 'Oswald', sans-serif;
-    color: #F0F4CD; 
+    
+    color: #FFFFFF; 
     font-size: 25px;
     text-decoration: none;
     transition: .5s;
