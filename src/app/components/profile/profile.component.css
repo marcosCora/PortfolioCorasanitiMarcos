@@ -17,27 +17,31 @@
  .information{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   width: 100%;
-  height: 65%;
+  height: 35%;
+  padding-left: 5%;
 }
 
 .information .tittle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
-  height: 50%; 
+  height: 30%; 
 }
 
 .tittle .name{
   /*   width: 580px;*/
-    height: 30%;
+    height: 50%;
     font-size: 2.7rem;
   }
   
   .tittle .description{
     
-    height: 70%;
+    height: 50%;
     font-size: 1.2rem;
   }
 
@@ -47,7 +51,7 @@
   align-items: center;
   gap: 3%;
   width: 100%;
-  height: 30%;
+  /* height: 15%; */
   padding-left: 6%;
 }
 
@@ -71,7 +75,7 @@
 
 
 .information .button{
-  height: 20%;
+  /* height: 10%; */
 }
 
 
