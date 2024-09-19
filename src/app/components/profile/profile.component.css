@@ -34,7 +34,6 @@
 }
 
 .tittle .name{
-  /*   width: 580px;*/
     height: 50%;
     font-size: 3.0rem; 
   }
@@ -64,8 +63,15 @@
   cursor: pointer;
 }
 
-.information .inf .container-logo img{
-  width: 55%;
+.information .inf .container-logo a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.information .inf .container-logo a img{
+  width: 65%;
   aspect-ratio: 1/1;
 }
 
