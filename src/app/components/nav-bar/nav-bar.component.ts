@@ -15,7 +15,6 @@ export class NavBarComponent {
   @Output() sectionClicked = new EventEmitter<string>();
 
   onClick(sectionId: string) {
-    
     this.sectionClicked.emit(sectionId);
   }
 }

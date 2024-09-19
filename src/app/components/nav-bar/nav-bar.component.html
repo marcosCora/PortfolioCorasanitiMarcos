@@ -1,12 +1,28 @@
-
 <header class="header">
-    <span class="nav-name">Marcos Agustín Corasaniti</span>
-    <nav>
-        <ul class="nav-links">
-            <li><a (click)="onClick('skills')">Aptitudes</a></li>
-            <li><a (click)="onClick('projects')">Proyectos</a></li>
-            <li><a (click)="onClick('contact')">Contacto</a></li> 
-        </ul>
-    </nav>
-</header>
+  <nav class="nav">
+    <label class="label-menu" for="menu-responsive">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="list_icon"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+        />
+      </svg>
+    </label>
 
+    <input type="checkbox" class="check-menu" id="menu-responsive">
+
+    <ul class="nav-links">
+      <li><a (click)="onClick('skills')">Experiencia</a></li>
+      <li><a (click)="onClick('skills')">Aptitudes</a></li>
+      <li><a (click)="onClick('projects')">Proyectos</a></li>
+      <li><a (click)="onClick('contact')">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
