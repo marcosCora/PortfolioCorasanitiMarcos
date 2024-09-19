@@ -1,13 +1,11 @@
 
 .header{ 
     position: fixed;
- /*    top: 3%;
-    left: 25%; */
     top: 3%;
     left: 0;
     right: 0;
     margin: auto;
-    width: 50%;
+    width: 40%;
     height: 8%;
    
     background-color:#000;
@@ -26,11 +24,12 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    font-size: 1.5rem;
+    font-size: 100%;
 }
 
 .header .nav-links{
     display: flex;
+    width: 100%;
     list-style: none;
     justify-content: center;
     gap: 5%;
@@ -50,3 +49,72 @@
  .header .nav-links li a:hover {
     color: #AAAE8A; 
 } 
+
+.label-menu{
+    display: none;
+}
+
+.list_icon{
+    color: #FFFFFF;
+}
+
+.check-menu{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    .header{ 
+        position: static;
+        width: 100%;
+        height: 50px;
+        border-radius: 0px;
+        background-color: #27323E;
+        opacity: 1;
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 15px;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+     .label-menu{
+        display: block;
+    }
+
+    .check-menu:checked + .nav-links {
+        height: calc(100vh - 50px);
+    }
+
+    .header .nav-links{
+        position: absolute;
+        background-color:#000;
+        width: 100%;
+        
+        top: 50px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        height: 0;
+        overflow: hidden;
+
+        transition: all .3s;
+    } 
+
+    
+}
