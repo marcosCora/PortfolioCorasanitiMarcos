@@ -1,90 +1,145 @@
+.projects-section{
+    background-color: #27323E;
+    color: #FFFF;
+    width: 100%;
+    height: auto;
 
- .section-projects{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    justify-content: center;
+
+    padding-top: 2%;
 }
 
- .section-projects  .article-proyects {
+.projects-section .div-container{
     
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: auto;
-    margin-top: 2%; 
-    margin-bottom: 3%; 
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;  
-    background-color: #B8B9AE;
-}
-
-
-
-
-
-.section-projects  .article-proyects .container-imgProjects {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 1%;
-    width: 100%; 
-    height: 45%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+    height: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.projects-section .div-container .projects-container{
+    background-color: #212529;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-radius: 25px;
+    width: 40%;
+    height: 100%;
+    margin-bottom: 5%;
     
 }
 
- .section-projects  .article-proyects .container-imgProjects .img-projects {
-    width: 75%; /* Ajusté el ancho para que haya dos por fila */
-    max-width: 90%; /* Ajusta según sea necesario */
-    height: 100%; /* Ajusta según sea necesario */
-    border-radius: 1rem; 
+ 
+.projects-section .div-container .projects-container .img-project{
+    aspect-ratio: 16/9;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
 }
 
- .section-projects  .article-proyects .container-infProjects{
+.projects-section .div-container 
+.projects-container .info-projects{
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-    /* height: 45%; */
-}
-
-.section-projects  .article-proyects .container-infProjects h2{
-    margin: 1%;
-    font-size: 40px;
-}
-
-.section-projects  .article-proyects .container-infProjects p{
-    margin: 6px;
-    text-align: center;
-    font-size: 15px;
-}
-
-.section-projects  .article-proyects .container-infProjects .buttons-container{
-    margin: 2%;
-    display: flex;
-    justify-content: center;
-}  
-
-.button {
     margin: 3%;
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
+    font-size: 0.9rem;
+
+}
+
+.projects-section .div-container 
+.projects-container .info-projects .text-container h2{
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.projects-section .div-container 
+.projects-container .info-projects .text-container p{
+    line-height: 1.5;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.projects-section .div-container 
+.projects-container .info-projects .img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.projects-section .div-container 
+.projects-container .info-projects .img-container 
+.technologies-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 5%;
     border-radius: 20px;
-    border: 2px solid #495057;
-    background: #495057;
-  }
+    width: 100%;
+    height: 50%;
+    
+}
 
+.projects-section .div-container 
+.projects-container .info-projects .img-container .technologies-container .img-technologies{
+    width: 30px;
+    height: 30px;
+}
 
-  .button:hover {
-    background: #fff;
-    color: #495057
-  } 
+.projects-section .div-container 
+.projects-container .info-projects .img-container .link-repo{
+    color: #FFFF;;
+}
+ 
+.projects-section .div-container 
+.projects-container .info-projects .img-container .link-repo:hover{
+    scale: 1.1;
+}
+ .projects-section .div-container 
+.projects-container .info-projects .img-container .link-repo 
+.bi-box-arrow-up-right {
+    width: 15px;
+    height: 15px;
 
+}
+ 
+@media (max-width: 768px) {
+    .projects-section .div-container{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-section .div-container .projects-container{
+        width: 80%;
+    }
+
+/*     .projects-section .div-container 
+.projects-container .info-projects .text-container h2{
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 1rem;
+    text-align: center;
+}
+ */
+}

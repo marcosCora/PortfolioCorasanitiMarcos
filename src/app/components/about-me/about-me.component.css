@@ -1,0 +1,112 @@
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4%;
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+    color: #FFFF;
+}
+
+
+.section-container .tittle{
+    font-size: 1.5rem;
+}
+
+.section-container .div-container{
+    
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+
+}
+
+ .section-container .div-container .text-container{
+    line-height: 1.5;
+    width: 80%;
+    height: 45%;
+    padding-top: 2%; 
+    font-size: 0.9rem;
+} 
+
+
+.section-container .div-container .technologies-contaiern{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 7%;
+    width: 85%;
+    height: 55%;
+
+} 
+.section-container .div-container .technologies-contaiern .tittle-technologies {
+    font-size: 1.4rem;
+} 
+
+.section-container .div-container .technologies-contaiern .icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 25%;
+    border-radius: 20px;
+    background-color: #27323E;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.49);
+
+    animation-name: animation-skilss;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-range: entry 0% cover 25%;
+}
+
+@keyframes animation-skilss{
+  from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;   
+    }
+}
+
+
+.section-container .div-container .technologies-contaiern .icons-container .icons{
+    width: 40px;
+    height: 40px;
+}
+
+.section-container .div-container .technologies-contaiern .icons-container .icons:hover{
+    scale: 1.3;
+}
+
+
+@media (max-width: 768px) {
+
+    .section-container .div-container .technologies-contaiern .tittle-technologies {
+        font-size: 1.2rem;
+    } 
+
+    .section-container .div-container .technologies-contaiern .icons-container .icons{
+        width: 26px;
+        height: 26px;
+    }
+
+    .section-container .div-container .technologies-contaiern{
+       padding-top: 15%;
+    }
+
+    
+}
+
+

@@ -7,6 +7,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
 import { ContactComponent } from './components/contact/contact.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 
 @Component({
@@ -15,7 +16,7 @@ import { ContactComponent } from './components/contact/contact.component';
     templateUrl: './app.component.html',
     encapsulation: ViewEncapsulation.None,
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, NavBarComponent, ProfileComponent, SkillsComponent, ProjectsComponent , ContactComponent]
+    imports: [CommonModule, RouterOutlet, NavBarComponent, ProfileComponent, AboutMeComponent, SkillsComponent, ProjectsComponent , ContactComponent]
 })
 export class AppComponent {
 
