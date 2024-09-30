@@ -27,7 +27,7 @@
 }
 
  .section-container .div-container .text-container{
-
+    line-height: 1.5;
     width: 80%;
     height: 45%;
     padding-top: 2%; 

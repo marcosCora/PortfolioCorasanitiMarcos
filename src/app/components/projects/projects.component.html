@@ -1,109 +1,33 @@
 <section id="projects" class="projects-section">
   <h2>Experiencias y Proyectos</h2>
   <div class="div-container">
-    <div class="projects-container">
-      <img class="img-project" src="../../../assets/proyects/sipbites.png" alt="" />
-      <div class="info-projects">
-        <div class="text-container">
-          <h2>Blog sobre comidas y bebidas</h2>
-          <p>
-            Desarrollamos en equipo una aplicación web que funciona como
-            un blog de comidas y bebidas, permitiendo a los
-            usuarios interactuar con contenido variado y
-            gestionar sus cuentas. Proyecto utilizado para una materia de la universidad.
-
-          </p>
-        </div>
-        <div class="img-container">
-          <div class="technologies-container">
-            <img class="img-technologies" src="../../../assets/Icons/angular.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/typescript.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/html5.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/css.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/angular.svg" alt="">
+    @for (p of projects; track $index) {
+      <div class="projects-container">
+        <img class="img-project" src={{p.img}} alt="" />
+        <div class="info-projects">
+          <div class="text-container">
+            <h2>{{p.tittle}}</h2>
+            <p>
+              {{p.description}} 
+            </p>
           </div>
-          <button>Respositorio</button>
+          <div class="img-container">
+            <div class="technologies-container">
+              @for (tech of p.technologies; track $index) {
+                <img class="img-technologies" src={{p.technologies[$index]}} alt="">
+              }
+            </div>
+
+          <a class="link-repo" href={{p.repository}} target="_blank">
+              Ver repositorio 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+              </svg>
+          </a>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="projects-container">
-      <img class="img-project" src="../../../assets/proyects/sipbites.png" alt="" />
-      <div class="info-projects">
-        <div class="text-container">
-          <h2>Blog sobre comidas y bebidas</h2>
-          <p>
-            Desarrollamos en equipo una aplicación web que funciona como
-            un blog de comidas y bebidas, permitiendo a los
-            usuarios interactuar con contenido variado y
-            gestionar sus cuentas. Proyecto utilizado para una materia de la universidad.
-
-          </p>
-        </div>
-        <div class="img-container">
-          <div class="technologies-container">
-            <img class="img-technologies" src="../../../assets/Icons/angular.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/typescript.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/html5.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/css.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/angular.svg" alt="">
-          </div>
-          <button>Respositorio</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="projects-container">
-      <img class="img-project" src="../../../assets/proyects/sipbites.png" alt="" />
-      <div class="info-projects">
-        <div class="text-container">
-          <h2>Blog sobre comidas y bebidas</h2>
-          <p>
-            Desarrollamos en equipo una aplicación web que funciona como
-            un blog de comidas y bebidas, permitiendo a los
-            usuarios interactuar con contenido variado y
-            gestionar sus cuentas. Proyecto utilizado para una materia de la universidad.
-
-          </p>
-        </div>
-        <div class="img-container">
-          <div class="technologies-container">
-            <img class="img-technologies" src="../../../assets/Icons/angular.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/typescript.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/html5.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/css.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/angular.svg" alt="">
-          </div>
-          <button>Respositorio</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="projects-container">
-      <img class="img-project" src="../../../assets/proyects/sipbites.png" alt="" />
-      <div class="info-projects">
-        <div class="text-container">
-          <h2>Blog sobre comidas y bebidas</h2>
-          <p>
-            Desarrollamos en equipo una aplicación web que funciona como
-            un blog de comidas y bebidas, permitiendo a los
-            usuarios interactuar con contenido variado y
-            gestionar sus cuentas. Proyecto utilizado para una materia de la universidad.
-
-          </p>
-        </div>
-        <div class="img-container">
-          <div class="technologies-container">
-            <img class="img-technologies" src="../../../assets/Icons/angular.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/typescript.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/html5.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/css.svg" alt="">
-            <img class="img-technologies" src="../../../assets/Icons/angular.svg" alt="">
-          </div>
-          <button>Respositorio</button>
-        </div>
-      </div>
-    </div>
-   
+    }
   </div>
 </section>
