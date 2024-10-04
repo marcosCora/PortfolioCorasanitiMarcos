@@ -16,14 +16,14 @@ export class ProjectsComponent {
     description : 'Como proyecto personal, desarrollé una aplicación web full-stack utilizando Angular en el front-end y Java Spring Boot en el back-end. Esta aplicación permite a los usuarios explorar y analizar en profundidad datos de grandes corporaciones, como Coca-Cola. Al cargar los datos de una planta específica, los usuarios pueden visualizar una amplia gama de métricas y estadísticas. Además, la aplicación cuenta con un sistema de gestión de usuarios.',
     technologies : ['../../../assets/Icons/angular.svg', '../../../assets/Icons/spring.svg', '../../../assets/Icons/java.svg', '../../../assets/Icons/mysql.svg', '../../../assets/Icons/jwt.svg'],
     repository : 'https://github.com/marcosCora/monitoreo-plantas-api',
-    img : '../../../assets/proyects/sipbites.png'
+    img : '../../../assets/proyects/monitoreo.PNG'
   },
   {
     tittle : 'Simulacion laboral en No Country',
     description : 'Construimos una plataforma para apoyar a santuarios de animales. Con Angular y Spring Boot, desarrollamos una solución que conecta a donantes con organizaciones, facilitando la recaudación de fondos. Utilizamos Scrum como metodología agil respetando los sprints como también las reuniones diarias y Jira para gestionar las tareas del proyecto y crear una herramienta con funcionalidades como la creación de campañas y el seguimiento de donaciones.',
     technologies : ['../../../assets/Icons/angular.svg', '../../../assets/Icons/bootstrap.svg','../../../assets/Icons/spring.svg',  '../../../assets/Icons/java.svg', '../../../assets/Icons/mysql.svg', '../../../assets/Icons/jwt.svg'],
     repository : 'https://github.com/marcosCora/Front-No-Country-ForeverFunding',
-    img : '../../../assets/proyects/sipbites.png'
+    img : '../../../assets/proyects/noCountry.PNG'
   },
   {
     tittle : 'API RestFull VTV',
