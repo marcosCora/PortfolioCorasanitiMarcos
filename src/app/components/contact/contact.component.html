@@ -1,4 +1,18 @@
+ <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
 <section id="contact" class="section-container">
     <h2>¡Contactame!</h2>
-    <button >Enviar</button>
+    <form class="contact-form" (submit)="sendEmail($event)">
+        <label>Name</label>
+        <input type="text" name="name">
+        <label>Name</label>
+        <input type="text" name="lastName">
+        <label>Email</label>
+        <input type="email" name="email">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <input type="submit" value="Send">
+      </form>
 </section>
