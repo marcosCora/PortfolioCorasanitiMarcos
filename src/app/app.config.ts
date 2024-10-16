@@ -3,6 +3,7 @@ import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
+import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 export const appConfig: ApplicationConfig = {
@@ -10,7 +11,9 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideClientHydration(),
     importProvidersFrom(
-      
+      FormsModule,
+      ReactiveFormsModule,
+      FormGroup,
     )
     ]
 };
