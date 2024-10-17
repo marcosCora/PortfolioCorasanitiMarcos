@@ -5,11 +5,13 @@
 <section id="contact" class="section-container">
     <h2>¡Contactame!</h2>
 
-    <form  [formGroup]="formEmail" (ngSubmit)="sendEmail()">
-      <input type="text" placeholder="Nombre" formControlName="nombre">
+    <form  [formGroup]="formEmail">
+      <input type="text" placeholder="Nombre" formControlName="name">
       <input type="email" placeholder="Email" formControlName="email">
-      <input type="text" placeholder="Mensaje" formControlName="mensaje">
+      <input type="text" placeholder="Mensaje" formControlName="message">
     </form>
+
+    <button type="submit" (click)="sendEmail()">Enviar</button>
 
    <!--  <form class="contact-form" (submit)="sendEmail($event)">
         <label>Name</label>
