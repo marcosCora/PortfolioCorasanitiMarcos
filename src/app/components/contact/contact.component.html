@@ -5,11 +5,28 @@
 <section id="contact" class="section-container">
     <h2>¡Contactame!</h2>
 
-    <form  [formGroup]="formEmail">
-      <input type="text" placeholder="Nombre" formControlName="name">
-      <input type="email" placeholder="Email" formControlName="email">
-      <input type="text" placeholder="Mensaje" formControlName="message">
-    </form>
+    <div class="container">
 
-    <button type="submit" (click)="sendEmail()">Enviar</button>
+    
+
+    <div class="container-form">
+      <form  [formGroup]="formEmail">
+        <input type="text" placeholder="Nombre" formControlName="name">
+        <input type="email" placeholder="Email" formControlName="email">
+        <input type="text" placeholder="Mensaje" formControlName="message">
+      </form>
+  
+      <button type="submit" (click)="sendEmail()">Enviar</button>
+    </div>
+
+    <div class="container-information">
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo laboriosam porro molestias odio enim. Architecto, nisi tenetur rerum ipsa, atque fugiat magnam optio quibusdam dolor reprehenderit tempora laborum accusantium consequuntur?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, natus totam amet, velit voluptatem earum dolorem reiciendis modi aliquam facilis impedit? Nobis a officiis, saepe minus in libero dicta corrupti?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nam voluptas suscipit iusto? Repellendus atque, excepturi fuga ex porro quibusdam rerum officia aut, repellat molestiae, assumenda sapiente voluptas cumque accusamus!
+
+      </p>
+
+    </div>
+  </div>
 </section>

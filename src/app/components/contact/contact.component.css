@@ -9,3 +9,23 @@
     background-color: #212529;
     color: #FFFF;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 80%;
+    height: 70%;
+    padding-top: 10%;
+
+}
+
+.container .container-form{
+    height: 100%;
+    
+}
+
+.container .container-information{
+    width: 40%;
+    
+}
