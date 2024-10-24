@@ -10,10 +10,10 @@
     
 
     <div class="container-form">
-      <form  [formGroup]="formEmail">
-        <input type="text" placeholder="Nombre" formControlName="name">
-        <input type="email" placeholder="Email" formControlName="email">
-        <input type="text" placeholder="Mensaje" formControlName="message">
+      <form  [formGroup]="formEmail" class="form-email">
+        <input class="input-form" type="text" placeholder="Nombre" formControlName="name">
+        <input class="input-form" type="email" placeholder="Email" formControlName="email">
+        <input  class="input-form" type="text" placeholder="Mensaje" formControlName="message">
       </form>
   
       <button type="submit" (click)="sendEmail()">Enviar</button>
